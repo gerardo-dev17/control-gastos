@@ -5,7 +5,7 @@ import NuevoPresupuesto from "./NuevoPresupuesto"
 const Header = ({ gastos, setGastos, presupuesto, setPresupuesto, isValuePresupuesto, setIsValuePresupuesto }) => {
   return (
     <header>
-      <h1>Planificación de Gastos</h1>
+      <h1>Planificación De Gastos</h1>
 
       {isValuePresupuesto ? (
         <ControlPresupuesto
